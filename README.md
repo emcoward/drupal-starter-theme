@@ -23,7 +23,7 @@ From 'yourthemename' directory install the node packages for the theme:
 ```bash
 $ npm install
 # => once done you can check by running `npm list` to see all project packages
-
+```
 
 ## Grunt tasks
 
