@@ -1,0 +1,27 @@
+{
+  "name": "drupal-starter-theme",
+  "version": "0.1.0",
+  "author": "emcoward",
+  "repository": {
+  "type": "git",
+  "url": "http://github.com/emcoward/drupal-starter-theme"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-imagemin": "~0.4.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jscs-checker": "~0.4.0",
+    "grunt-newer": "~0.6.1",
+    "load-grunt-tasks": "~0.2.1",
+    "time-grunt": "~0.2.8",
+    "load-grunt-configs": "~0.4.0"
+  },
+  "engines": {
+  "node": ">= 0.10.x"
+  }
+}
