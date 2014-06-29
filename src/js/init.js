@@ -1,9 +1,8 @@
 /**
   * JavaScript Initialisation
   */
-'use strict';
-
 (function ($) {
+  'use strict';
   Drupal.behaviors.drupalstartertheme = {
     attach: function (context, settings) {
 

@@ -8,7 +8,6 @@ module.exports = {
     "force": true
   },
   all: [
-    'Gruntfile.js',
     '<%= paths.src %>/<%= paths.js %>/**/*.js'
   ]
 }
