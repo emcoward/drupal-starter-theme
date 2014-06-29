@@ -49,42 +49,72 @@
 
 
 /*------------------------------------------------------------------------------
-  Mobile and up
+  Mobile Portrait
 ------------------------------------------------------------------------------*/
 @media only screen {
-
- // @import "breakpoints/mobile";
+ @import "breakpoints/mobile-portrait";
 
 } /* end media */
 
 
 /*------------------------------------------------------------------------------
-  Mobile (large/landscape) and up
+  Mobile Landscape
 ------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_mobile_large) {
+@media only screen and (min-width: $rbp_mobile_landscape) {
 
-  //@import "breakpoints/mobile-large";
+  @import "breakpoints/mobile-landscape";
 
 } /* end media */
 
 
-
 /*------------------------------------------------------------------------------
-  Tablet (small/portrait) and up
+  Small Tablet Portrait
 ------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_tablet) {
+@media only screen and (min-width: $rbp_small_tablet_portrait) {
 
-  //@import "breakpoints/tablet";
+  @import "breakpoints/small-tablet-portrait";
 
 } /* end media */
 
 
 
 /*------------------------------------------------------------------------------
-  Tablet (large/landscape), Desktop (small) and up
+  Tablet Portrait
 ------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_tablet_large) {
+@media only screen and (min-width: $rbp_tablet_portrait) {
 
-  //@import "breakpoints/tablet-large";
+  @import "breakpoints/tablet-portrait";
+
+} /* end media */
+
+
+
+/*------------------------------------------------------------------------------
+  Small Tablet Landscape
+------------------------------------------------------------------------------*/
+@media only screen and (min-width: $rbp_small_tablet_landscape) {
+
+  @import "breakpoints/small-tablet-landscape";
+
+} /* end media */
+
+
+
+/*------------------------------------------------------------------------------
+  Tablet Landscape
+------------------------------------------------------------------------------*/
+@media only screen and (min-width: $rbp_tablet_landscape) {
+
+  @import "breakpoints/tablet-landscape";
+
+} /* end media */
+
+
+/*------------------------------------------------------------------------------
+  Mega Desktop
+------------------------------------------------------------------------------*/
+@media only screen and (min-width: $rbp_mega_desktop) {
+
+  @import "breakpoints/mega-desktop";
 
 } /* end media */

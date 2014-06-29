@@ -3,18 +3,14 @@
   "box-sizing" : false,
   "compatible-vendor-prefixes" : false,
   "gradients" : false,
-
   "box-model" : false,
-
   "duplicate-background-images" : false,
   "universal-selector" : false,
   "unqualified-attributes" : false,
-
   "floats" : false,
   "font-sizes" : false,
-
   "outline-none" : false,
-
   "qualified-headings" : false,
-  "unique-headings" : false
+  "unique-headings" : false,
+  "star-property-hack" : false
 }

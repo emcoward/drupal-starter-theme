@@ -1,8 +1,36 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/*settings*.php
+
+# Ignore paths that contain generated content.
+cache/
+files/
+sites/*/files
+sites/*/private
+sites/all/themes/*/.sass-cache
+
+# Ignore default text files
+.htaccess
+robots.txt
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/INSTALL*.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/UPGRADE.txt
+/README.txt
+sites/all/README.txt
+sites/all/modules/README.txt
+sites/all/themes/README.txt
+
 .DS_Store
-.sass-cache
 .tmp*
 
-build
+.sass-cache
 node_modules
 tmp
+
+sites/all/themes/drupalstartertheme/.sass-cache
+sites/all/themes/drupalstartertheme/node_modules
+sites/all/themes/drupalstartertheme/tmp
 assets
+
