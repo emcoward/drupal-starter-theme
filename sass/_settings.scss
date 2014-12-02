@@ -1,0 +1,40 @@
+// ---- Layout & Grid settings ----------------------
+//  Drupal Starter Theme uses Susy as the layout system.
+//  Full Susy docs can be found at:
+//  http://susydocs.oddbird.net/
+// --------------------------------------------------
+
+$settings: (
+
+  // ---- Container ---------------------------------
+  container: 970px,
+  container-position: center,
+
+  // ---- Sidebars ----------------------------------
+  sidebar-first: 25%,
+  sidebar-second: 25%,
+
+  // ---- Directionality ----------------------------
+  flow: ltr,
+
+  // ---- Grid system -------------------------------
+  columns: 12,
+  gutters: 20px/70px,
+  math: fluid,
+  output: isolate,
+  global-box-sizing: border-box,
+  last-flow: to,
+  debug: (
+    image: show,
+    color: blue,
+    output: background
+  ),
+
+  // ---- Media Query breakpoints. ------------------
+  breakpoint-small: 480px,
+  breakpoint-medium: 767px,
+  breakpoint-large: 960px
+
+);
+
+@include layout($settings);

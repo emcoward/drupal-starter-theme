@@ -4,11 +4,11 @@
 
 module.exports = {
   options: {
-    csslintrc: '<%= paths.rc %>/.csslintrc',
+    csslintrc: '.csslintrc',
     formatters: [
       {
         id: 'text',
-        dest: '<%= paths.tmp %>/csslint-report.txt'
+        dest: 'tmp/csslint-report.txt'
       }
     ]
   },
@@ -17,7 +17,7 @@ module.exports = {
       import: 2
     },
     src: [
-      '<%= paths.assets %>/<%= paths.css %>/styles.css'
+      'stylesheets/styles.css'
     ]
   }
 }

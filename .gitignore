@@ -28,9 +28,15 @@ sites/all/themes/README.txt
 .sass-cache
 node_modules
 tmp
+tmp
+dist
+build
 
 sites/all/themes/drupalstartertheme/.sass-cache
 sites/all/themes/drupalstartertheme/node_modules
 sites/all/themes/drupalstartertheme/tmp
 assets
+bower-components
+
+
 

@@ -1,0 +1,16 @@
+{
+  "name": "drupal-starter-theme",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "1.9.1",
+    "modernizr": "~2.6.2"
+  },
+  "dependencies": {
+    "breakpoint-sass": "~2.5.0"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "normalize.css": "~3.0.2",
+    "respond": "~1.4.2"
+  }
+}

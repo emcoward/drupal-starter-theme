@@ -1,5 +1,7 @@
-module.exports = function (grunt) {
-  'use strict';
+'use strict';
+
+module.exports = function(grunt) {
+
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
 
@@ -8,17 +10,8 @@ module.exports = function (grunt) {
 
   // Project settings
   var options = {
-    paths: {
-      // Configurable paths
-      'src': 'src',
-      'js': 'js',
-      'img': 'img',
-      'css': 'css',
-      'scss': 'scss',
-      'tmp': 'tmp',
-      'rc': 'rc',
-      'assets': 'assets'
-    }
+      bower: grunt.file.readJSON('.bowerrc'),
+      pkg: grunt.file.readJSON('package.json')
   };
 
   // Load grunt configurations automatically
@@ -31,21 +24,12 @@ module.exports = function (grunt) {
   grunt.registerTask('default', ['watch']);
 
   // build tasks
-  grunt.registerTask('build', [
+  grunt.registerTask('dev', [
     'clean',
-    'copy',
-    'sass:dev',
+    'imagemin',
+    'compass',
     'csslint',
     'jshint'
   ]);
-
-  // production task
-  grunt.registerTask('production', [
-    'clean',
-    'imagemin',
-    'copy',
-    'sass:dist'
-  ]);
-
 };
 

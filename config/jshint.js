@@ -4,10 +4,11 @@
 
 module.exports = {
   options: {
-    jshintrc: '<%= paths.rc %>/.jshintrc',
+    jshintrc: '.jshintrc',
     "force": true
   },
   all: [
-    '<%= paths.src %>/<%= paths.js %>/**/*.js'
+    'scripts/*.js',
+    'scripts/**/**/*.js',
   ]
 }

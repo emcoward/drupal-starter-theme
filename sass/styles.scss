@@ -7,17 +7,14 @@
  *
  */
 
-// Import vendor style sheets
-
+@import "compass";
+@import "susy";
+@import "settings";
 
 // Global functions and variables
 @import
-  "functions/functions",
-  "vars/vars",
-  "vars/vars-forms",
-  "vars/vars-helpers",
-  "vars/vars-typography";
-
+  "functions",
+  "vars";
 
 // Helpers
 @import "core/helpers/helpers";
@@ -43,78 +40,13 @@
   "core/forms/select",
   "core/forms/textarea";
 
+// Grids
+@import
+  "core/grids/grids";
+
+// Templates
+//@import "templates/";
+
 // Components
 @import
-  "components/component/component";
-
-
-/*------------------------------------------------------------------------------
-  Mobile Portrait
-------------------------------------------------------------------------------*/
-@media only screen {
- @import "breakpoints/mobile-portrait";
-
-} /* end media */
-
-
-/*------------------------------------------------------------------------------
-  Mobile Landscape
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_mobile_landscape) {
-
-  @import "breakpoints/mobile-landscape";
-
-} /* end media */
-
-
-/*------------------------------------------------------------------------------
-  Small Tablet Portrait
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_small_tablet_portrait) {
-
-  @import "breakpoints/small-tablet-portrait";
-
-} /* end media */
-
-
-
-/*------------------------------------------------------------------------------
-  Tablet Portrait
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_tablet_portrait) {
-
-  @import "breakpoints/tablet-portrait";
-
-} /* end media */
-
-
-
-/*------------------------------------------------------------------------------
-  Small Tablet Landscape
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_small_tablet_landscape) {
-
-  @import "breakpoints/small-tablet-landscape";
-
-} /* end media */
-
-
-
-/*------------------------------------------------------------------------------
-  Tablet Landscape
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_tablet_landscape) {
-
-  @import "breakpoints/tablet-landscape";
-
-} /* end media */
-
-
-/*------------------------------------------------------------------------------
-  Mega Desktop
-------------------------------------------------------------------------------*/
-@media only screen and (min-width: $rbp_mega_desktop) {
-
-  @import "breakpoints/mega-desktop";
-
-} /* end media */
+  "components/component";

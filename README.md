@@ -30,7 +30,7 @@ $ npm install
 There are 3 grunt tasks for the theme.
 
 * grunt watch
-* grunt build
+* grunt dev
 * grunt production
 
 
@@ -49,7 +49,7 @@ $ grunt
 This will compile the source files (uncompressed and with debug info):
 
 ```bash
-$ grunt build
+$ grunt dev
 # => This should return `Done, without errors`
 # => All tasks should have been run and compiled once
 ```

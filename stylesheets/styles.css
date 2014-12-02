@@ -5,7 +5,7 @@
  * Author: emcoward
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\000036}}
+/* line 6, ../sass/core/helpers/_helpers.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -14,47 +14,18 @@
   /* 2 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000312}}
+/* line 12, ../sass/core/helpers/_helpers.scss */
 .cf:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000316}}
+/* line 16, ../sass/core/helpers/_helpers.scss */
 .cf {
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000323}}
+/* line 23, ../sass/core/helpers/_helpers.scss */
 .element-invisible {
   position: absolute;
   left: -999em;
 }
-
-/*------------------------------------------------------------------------------
-  Mobile Portrait
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Mobile Landscape
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Small Tablet Portrait
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Tablet Portrait
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Small Tablet Landscape
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Tablet Landscape
-------------------------------------------------------------------------------*/
-/* end media */
-/*------------------------------------------------------------------------------
-  Mega Desktop
-------------------------------------------------------------------------------*/
-/* end media */

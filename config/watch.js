@@ -8,26 +8,21 @@ module.exports = {
       'Gruntfile.js'
     ]
   },
-  images: {
-    files: '<%= paths.src %>/<%= paths.img %>/*',
-    tasks: [
-      'clean:img',
-      'copy:img'
-    ]
-  },
   scss: {
     files: [
-      '<%= paths.src %>/<%= paths.scss %>/**/*.{scss,sass}',
-      '<%= paths.src %>/<%= paths.scss %>/*.{scss,sass}'
+      'sass/**/*.{scss,sass}',
+      'sass/*.{scss,sass}'
     ],
     tasks: [
       'clean:css',
-      'sass:dev'
+      'compass',
+      'csslint'
     ]
   },
   js: {
     files: [
-      '<%= paths.src %>/<%= paths.js %>/**/*.js'
+      'scripts/*.js',
+      'scripts/**/*.js'
     ],
     tasks: [
       'jshint'
