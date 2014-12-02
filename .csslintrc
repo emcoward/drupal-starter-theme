@@ -12,5 +12,6 @@
   "outline-none" : false,
   "qualified-headings" : false,
   "unique-headings" : false,
-  "star-property-hack" : false
+  "star-property-hack" : false,
+  "background-image" : false
 }

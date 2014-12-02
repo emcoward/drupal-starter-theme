@@ -25,6 +25,14 @@ $ npm install
 # => once done you can check by running `npm list` to see all project packages
 ```
 
+## Bower
+
+Install dependencies for the theme:
+
+```bash
+$ bower install
+```
+
 ## Grunt tasks
 
 There are 2 grunt tasks for the theme.
