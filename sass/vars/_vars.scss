@@ -4,11 +4,11 @@
 //------------------------------------------------------------------------------
 //  RESPONSIVE BREAK POINTS
 //------------------------------------------------------------------------------
-$rbp_mobile_landscape: pxtoem(480);
-$rbp_small_tablet_portrait: pxtoem(600);
-$rbp_tablet_portrait: pxtoem(768);
-$rbp_small_tablet_landscape: pxtoem(800);
-$rbp_tablet_landscape: pxtoem(1024);
+$rbp_mobile_landscape: 30em; // 480px
+$rbp_small_tablet_portrait: 37.500em; // 600px
+$rbp_small_tablet_landscape: 50em; // 800px
+$rbp_tablet_portrait: 48em; // 768px
+$rbp_tablet_landscape: 64em; // 1024px
 $rbp_mega_desktop: pxtoem(1140);
 
 

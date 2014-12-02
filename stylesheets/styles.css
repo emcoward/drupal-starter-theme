@@ -1,0 +1,60 @@
+/**
+ * STYLES
+ *
+ * Description:
+ * Author: emcoward
+ *
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\000036}}
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000312}}
+.cf:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000316}}
+.cf {
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sandpit\/sites\/all\/themes\/drupalstartertheme\/src\/scss\/core\/helpers\/_helpers\.scss}line{font-family:\0000323}}
+.element-invisible {
+  position: absolute;
+  left: -999em;
+}
+
+/*------------------------------------------------------------------------------
+  Mobile Portrait
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Mobile Landscape
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Small Tablet Portrait
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Tablet Portrait
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Small Tablet Landscape
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Tablet Landscape
+------------------------------------------------------------------------------*/
+/* end media */
+/*------------------------------------------------------------------------------
+  Mega Desktop
+------------------------------------------------------------------------------*/
+/* end media */
