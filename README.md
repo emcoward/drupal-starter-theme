@@ -27,11 +27,10 @@ $ npm install
 
 ## Grunt tasks
 
-There are 3 grunt tasks for the theme.
+There are 2 grunt tasks for the theme.
 
 * grunt watch
 * grunt dev
-* grunt production
 
 
 ### Watch
@@ -44,7 +43,7 @@ $ grunt
 # => It is now ready to watch for any file changes and re-compile
 ```
 
-### Build
+### Dev
 
 This will compile the source files (uncompressed and with debug info):
 
@@ -53,17 +52,6 @@ $ grunt dev
 # => This should return `Done, without errors`
 # => All tasks should have been run and compiled once
 ```
-
-### Production
-
-This will compile the source files compressed and without debug info.
-
-```bash
-$ grunt production
-# => This should return `Done, without errors`
-# => All tasks should have been run and compiled once
-```
-
 
 # Editor config
 
