@@ -83,6 +83,7 @@
 
     // Custom Globals
     "globals"       : {
-        "Modernizr": true       // additional predefined global variables
+        "Modernizr" : true,       // additional predefined global variables
+        "Drupal"    : true
     }
 }
